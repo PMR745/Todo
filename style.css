@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(132deg, rgb(2, 2, 247), rgba(131, 5, 5, 0.589));
+    font-family: 'Open Sans', sans-serif;
+}
+
+nav {
+    height: 4rem;
+    padding-left: 1rem;
+    font-size: 3rem;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.innercontainer {
+    height: 100%;
+    width: 82%;
+    /* background-color: brown; */
+    margin-top: 2rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    padding-left: 15rem;
+}
+
+#box {
+    height: auto;
+    /* background-color: yellow; */
+    width: 75%;
+    
+}
+
+.innerbox {
+    height: 3rem;
+    width: 40rem;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+#todowork {
+    height: 2rem;
+    width: 35rem;
+    font-size: 1.7rem;
+}
+
+#todothings {
+    height: auto;
+    width: auto;
+    /* background-color: blue; */
+}
+
+#btn {
+    height: 2.5rem;
+    width: 3rem;
+    font-size: 2.5rem;
+    cursor: pointer;
+    margin: 0.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#btn:hover {
+    background: transparent;
+    color: white;
+}
+
+.todoelem {
+    height: auto;
+    width: auto;
+    background-color: black;
+    color: white;
+    padding-left: 1rem;
+    font-size: 2.5rem;
+    display: flex;
+    align-items: center;
+    margin: 1rem;
+    text-transform: uppercase;
+}
+
+.delete {
+    height: 2rem;
+    width: 3rem;
+    /* background-color: pink; */
+    
+}
+
